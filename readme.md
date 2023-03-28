@@ -1,15 +1,17 @@
-# Bienvenido al readme del proyecto.
-## De qué trata?
-- Este proyecto se basa en una landing page para un gimnasio.Hecho con HTML
+# Welcome to the readme of the project.
+## What is it about?
+- This project is based on a landing page for a gym. Made with HTML
+- In week one, the interface design was made with figma
+- In week two, the page structure was coded
 
-## Con qué nos vamos a encontrar en el proyecto?
-- El proyecto estará dividido en sus respectivas partes y el main contendrá 5 secciones.       
-- Título como "BaSP-M2023" en su función head.      
-- Luego pasamos al header con el nombre del gimnasio.
-- En la primera sección del main, se habla un poco del gimnasio a modo de presentación y se puede ver más información con un boton. 
-- En la sección número dos del main, se puede ver información sobre las utilidades de la página web.
-- En la sección número tres del main se puede ver más información sobre la empresa.
-- Sección número cuatro del main: Se presentam formularios para interactuar con el servicio de atención.
-- Sección número cinco del main: Contiene información sobre las actividades que se pueden realizar en el gimnasio y a cerca de las membrecías y sus beneficios.
-- Luego, para finalizar, nos encontramos con un footer que contiene la marca de la empresa.
+## What are we going to find in the project?
+- The project will be divided into its respective parts and the main will contain 5 sections.       
+- Title as "BaSP-M2023" in your head function.      
+- Then we go to the header with the name of the gym.
+- In the first section of the main, there is a little talk about the gym as an introduction and you can see more information with a button. 
+- In section number two of the main, you can see information about the utilities of the web page.
+- In section number three of the main you can see more information about the company.
+- Section number four of the main: Forms are presented to interact with the customer service.
+- Section number five of the main: Contains information about the activities that can be done in the gym and about memberships and their benefits.
+- Then, finally, we find a footer that contains the company's brand.
 
