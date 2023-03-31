@@ -14,5 +14,9 @@
 - Section number four of the main: Forms are presented to interact with the customer service.
 - Section number five of the main: Contains information about the activities that can be done in the gym and about memberships and their benefits.
 - Then, finally, we find a footer that contains the company's brand.
+
+## Week-03 
+In point number three of the weekly problem, we are informed that we must make the corrections that the tutor marked for us in the folder for week three. I made a mistake and fixed it from week two, so I pushed the week two index.html as it was before it was fixed, and did it again in week three.
+
 # author Facundo Pacheco
 
