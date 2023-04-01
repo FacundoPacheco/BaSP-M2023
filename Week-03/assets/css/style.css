@@ -15,3 +15,28 @@ section {
 body{ 
     margin: 6.6%;
 }
+
+.container {    
+    height: 260px;
+}
+
+.right {
+    float: right;
+}
+
+img {   
+    height: 230px;
+}
+
+.left   {   
+    margin-left: 50px;
+    margin-inline-end: 600px;
+}
+
+.marginend {
+    margin-inline-end: 100px;
+}
+
+.learnmore  {   
+    margin-left: 50px;
+}
