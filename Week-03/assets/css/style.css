@@ -1,3 +1,7 @@
+body {  
+    font-family: 'Roboto';
+}
+
 h1 {
     color: #49A37B;
     text-shadow: 0px 3px 4px rgba(0,0,0,0.5);
@@ -40,7 +44,7 @@ body{
 }
 
 .container {    
-    height: 380px;
+    height: 400px;
 }
 
 .right {
@@ -71,21 +75,77 @@ img {
     line-height: 23px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-
 }
 
 .learnmore  {   
-    margin-top: 50px;
+    margin-top: 60px;
     margin-left: 50px;
     border-color: #49A37B;
     border-radius: 5px;
     width: 150px;
     height: 47px;
     color:  #373867;
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 18px;
     line-height: 19px;
+    background-color: white;
+}
+
+.h2sect2    {   
+    font-family: "roboto";
+    font-size: 40px;
+    line-height: 60px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.article1s2 h3 {    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.article1s2    {   
+    position: absolute;
+    width: 429px;
+    height: 71px;
+    left: 221px;
+    top: 700px;
+}
+
+.article2s2     {
+    position: absolute;
+    width: 535px;
+    height: 63px;
+    left: 879px;
+    top: 700px;
+}
+
+.article3s2 {   
+    position: absolute;
+    width: 429px;
+    height: 71px;
+    left: 221px;
+    top: 856px;
+}
+
+.article4s2 {   
+    position: absolute;
+width: 535px;
+height: 45px;
+left: 879px;
+top: 856px;
+}
+
+.container2 {   
+    height: 500px; 
+}
+
+.container2 h3 {    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
 }
 
