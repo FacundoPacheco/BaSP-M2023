@@ -44,7 +44,7 @@ body{
 }
 
 .container {    
-    height: 400px;
+    height: 430px;
 }
 
 .right {
@@ -93,59 +93,70 @@ img {
 }
 
 .h2sect2    {   
-    font-family: "roboto";
     font-size: 40px;
-    line-height: 60px;
+    line-height: 30px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-inline-start: 52px;
 }
-
-.article1s2 h3 {    
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 38px;
-}
-
 .article1s2    {   
     position: absolute;
     width: 429px;
     height: 71px;
-    left: 221px;
-    top: 700px;
+    left: 260px;
+    top: 730px;
 }
 
 .article2s2     {
     position: absolute;
     width: 535px;
     height: 63px;
-    left: 879px;
-    top: 700px;
+    left: 1000px;
+    top: 730px;
 }
 
 .article3s2 {   
     position: absolute;
     width: 429px;
     height: 71px;
-    left: 221px;
-    top: 856px;
+    left: 260px;
+    top: 960px;
 }
 
 .article4s2 {   
     position: absolute;
-width: 535px;
-height: 45px;
-left: 879px;
-top: 856px;
+    width: 535px;
+    height: 45px;
+    left: 1000px;
+    top: 960px;
 }
 
 .container2 {   
-    height: 500px; 
+    height: 550px; 
 }
 
-.container2 h3 {    
+.container2, h3 {    
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 38px;
+    
 }
+.container2 p { 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container2 img {   
+    position: absolute;
+    width: 86.15px;
+    height: 80px;
+    left: -100px;
+    top: 50px;
+}
+
 
