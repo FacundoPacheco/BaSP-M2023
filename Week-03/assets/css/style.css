@@ -1,5 +1,27 @@
 h1 {
     color: #49A37B;
+    text-shadow: 0px 3px 4px rgba(0,0,0,0.5);
+    margin-left: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+.h2-1   {   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.h3-1   { 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
 }
 
 section h2, h3 {
@@ -14,10 +36,11 @@ section {
 }
 body{ 
     margin: 6.6%;
+    
 }
 
 .container {    
-    height: 260px;
+    height: 380px;
 }
 
 .right {
@@ -25,7 +48,10 @@ body{
 }
 
 img {   
-    height: 230px;
+    width: 725px;
+    height: 369px;
+    left: 684px;
+    top: 137px;
 }
 
 .left   {   
@@ -35,8 +61,30 @@ img {
 
 .marginend {
     margin-inline-end: 100px;
+    position: relative;
+    width: 407px;
+    height: 140px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+
 }
 
 .learnmore  {   
+    margin-top: 50px;
     margin-left: 50px;
+    border-color: #49A37B;
+    border-radius: 5px;
+    width: 150px;
+    height: 47px;
+    color:  #373867;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 }
+
