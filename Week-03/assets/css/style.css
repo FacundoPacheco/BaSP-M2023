@@ -372,3 +372,58 @@ img {
     color: #373867;
     border-color: white;
 }
+
+.section5 { 
+    height: 300px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.activities {   
+    position: absolute;
+    width: 277px;
+    height: 45px;
+    left: 250px;
+    top: 2450px;
+}
+
+.black {    
+    position: absolute;
+    width: 500px;
+    height: 45px;
+    left: 500px;
+    top: 2450px;
+}
+
+.classicm { 
+    position: absolute;
+    width: 400px;
+    height: 45px;
+    left: 900px;
+    top: 2450px;
+}
+
+.onlyclass {    
+    position: absolute;
+    width: 400px;
+    height: 45px;
+    left: 1300px;
+    top: 2450px;
+}
+
+.h2footer   {
+    position: absolute;
+    width: 381px;
+    height: 38px;
+    left: 750px;
+    top: 2868px;
+}
+
+.imgfooter  {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 800px;
+    top: 2830px;
+}
