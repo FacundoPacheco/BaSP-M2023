@@ -18,5 +18,7 @@
 ## Week-03 
 In point number three of the weekly problem, we are informed that we must make the corrections that the tutor marked for us in the folder for week three. I made a mistake and fixed it from week two, so I pushed the week two index.html as it was before it was fixed, and did it again in week three.
 
+- During week 03 we work with css design on the html page of week 02
+
 # author Facundo Pacheco
 
