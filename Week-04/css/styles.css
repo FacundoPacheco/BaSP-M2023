@@ -253,7 +253,7 @@ img {
     line-height: 48px;
 }
 
-.placeholder-name {
+.contact-placeholder-name {
     position: absolute;
     width: 451.91px;
     height: 35px;
@@ -267,7 +267,7 @@ img {
     line-height: 23px;
 }
 
-.placeholder-lastname {
+.contact-placeholder-lastname {
     position: absolute;
     width: 451.91px;
     height: 35px;
@@ -281,7 +281,7 @@ img {
     line-height: 23px;
 }
 
-.placeholder-email {
+.contact-placeholder-email {
     position: absolute;
     width: 451.91px;
     height: 35px;
@@ -295,7 +295,7 @@ img {
     line-height: 23px;
 }
 
-.radio-membership {
+.contact-radio-membership {
     position: absolute;
     top: 1700px;
     left: 1000px;
@@ -307,7 +307,7 @@ img {
     color: #373867;
 }
 
-.radio-question {
+.contact-radio-question {
     position: absolute;
     top: 1785px;
     left: 1000px;
@@ -319,7 +319,7 @@ img {
     color: #373867;
 }
 
-.radio-claim {
+.contact-radio-claim {
     position: absolute;
     top: 1865px;
     left: 1000px;
@@ -331,7 +331,7 @@ img {
     color: #373867;
 }
 
-.comentary {
+.contact-comentary {
     position: absolute;
     width: 1300px;
     height: 289px;
@@ -348,7 +348,7 @@ img {
     opacity: 0.5;
 }
 
-.buttonsend {
+.contact-buttonsend {
     display: flex;
     flex-direction: column;
     align-items: center;
