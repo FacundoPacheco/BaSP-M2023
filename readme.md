@@ -5,20 +5,23 @@
 - In week two, the page structure was coded
 
 ## What are we going to find in the project?
-- The project will be divided into its respective parts and the main will contain 5 sections.       
-- Title as "BaSP-M2023" in your head function.      
+- The project will be divided into its respective parts and the main will contain 5 sections.
+- Title as "BaSP-M2023" in your head function.
 - Then we go to the header with the name of the gym.
-- In the first section of the main, there is a little talk about the gym as an introduction and you can see more information with a button. 
+- In the first section of the main, there is a little talk about the gym as an introduction and you can see more information with a button.
 - In section number two of the main, you can see information about the utilities of the web page.
 - In section number three of the main you can see more information about the company.
 - Section number four of the main: Forms are presented to interact with the customer service.
 - Section number five of the main: Contains information about the activities that can be done in the gym and about memberships and their benefits.
 - Then, finally, we find a footer that contains the company's brand.
 
-## Week-03 
+## Week-03
 In point number three of the weekly problem, we are informed that we must make the corrections that the tutor marked for us in the folder for week three. I made a mistake and fixed it from week two, so I pushed the week two index.html as it was before it was fixed, and did it again in week three.
 
 - During week 03 we work with css design on the html page of week 02
+
+## Week-04
+- At the beginning of week 04, fixed what was wrong with week 03.
 
 # author Facundo Pacheco
 
