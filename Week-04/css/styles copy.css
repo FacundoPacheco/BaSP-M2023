@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto';
     margin: 5px;
+    min-width: 390px;
 }
 
 section h2, h3 {
@@ -31,6 +32,10 @@ section {
     color: #000000;
 }
 
+.presentation-subtitle {
+    display: none;
+}
+
 .presentation-textleft-text {
     font-style: normal;
     font-weight: 400;
@@ -53,7 +58,10 @@ section {
     background-color: white;
     color:  #373867;
 }
-/*features*/
+
+.presentation-img { 
+    display:none;
+}
 
 .container-features {
     display: flex;
@@ -273,10 +281,52 @@ section {
     line-height: 20px;
 }
 
-.presentation-img {
-    display: none;
-    width: 725px;
-    height: 369px;
-    left: 684px;
-    top: 137px;
+@media only screen and (min-width: 601px) {
+
+.container-presentation {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 700px;
+    background: none;
+    margin-top: 55px;
 }
+
+.presentation-title-h2 {
+    color: #49A37B;
+}
+
+.presentation-text-button {
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation-subtitle {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.presentation-img {
+    display: flex;
+    width: 463px;
+    height: 543px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
