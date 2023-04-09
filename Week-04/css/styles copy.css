@@ -54,6 +54,14 @@ section {
     color:  #373867;
 }
 /*features*/
+
+.container-features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1500px;
+}
+
 .features-title {
     font-size: 40px;
     line-height: 30px;
@@ -62,39 +70,25 @@ section {
 }
 
 .features-calendar {
-    position: absolute;
-    width: 429px;
-    height: 71px;
-    left: 260px;
-    top: 730px;
+    display: flex;
+    flex-direction: column;
+    
+    
 }
 
 .features-display {
-    position: absolute;
-    width: 535px;
-    height: 63px;
-    left: 1000px;
-    top: 730px;
+    
+   
 }
 
 .features-membership {
-    position: absolute;
-    width: 429px;
-    height: 71px;
-    left: 260px;
-    top: 960px;
+    
+    
 }
 
 .features-contact {
-    position: absolute;
-    width: 535px;
-    height: 45px;
-    left: 1000px;
-    top: 960px;
-}
-
-.container-features {
-    height: 550px;
+    
+    
 }
 
 .container-features, h3 {
@@ -114,14 +108,12 @@ section {
 }
 
 .container-features img {
-    position: absolute;
     width: 86.15px;
     height: 80px;
-    left: -100px;
-    top: 50px;
 }
 
 .container-aboutus {
+    display: none;
     height: 350px;
 }
 
@@ -153,6 +145,7 @@ section {
 }
 
 .container-contact {
+    display: none;
     height: 800px;
 }
 
