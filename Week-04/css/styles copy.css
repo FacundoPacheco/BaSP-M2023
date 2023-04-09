@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto';
-    margin: 6.6%;
+    margin: 5px;
 }
 
 section h2, h3 {
@@ -11,15 +11,16 @@ section {
     border-bottom: 1px solid;
 }
 
-img {
-    width: 725px;
-    height: 369px;
-    left: 684px;
-    top: 137px;
-}
-
 .container-presentation {
-    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 459px;
+    background-image: url(../assest/img/LOGO-RR\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #D9D9D9;
 }
 
 .presentation-title-h2 {
@@ -27,34 +28,15 @@ img {
     font-weight: 400;
     font-size: 32px;
     line-height: 38px;
-}
-
-.presentation-textleft-h3 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-}
-
-.presentation-imgright {
-    float: right;
-}
-
-.presentation-textleft {
-    margin-left: 50px;
-    margin-inline-end: 600px;
+    color: #000000;
 }
 
 .presentation-textleft-text {
-    margin-inline-end: 100px;
-    position: relative;
-    width: 407px;
-    height: 140px;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
@@ -62,7 +44,6 @@ img {
     width: 150px;
     height: 47px;
     margin-top: 60px;
-    margin-left: 50px;
     border-color: #49A37B;
     border-radius: 5px;
     font-style: normal;
@@ -72,7 +53,7 @@ img {
     background-color: white;
     color:  #373867;
 }
-
+/*features*/
 .features-title {
     font-size: 40px;
     line-height: 30px;
@@ -354,4 +335,12 @@ img {
     height: 45px;
     left: 1300px;
     top: 2450px;
+}
+
+.container-img {
+    display: none;
+    width: 725px;
+    height: 369px;
+    left: 684px;
+    top: 137px;
 }
