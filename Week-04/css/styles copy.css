@@ -58,6 +58,7 @@ section {
 .container-features {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 1500px;
 }
@@ -67,28 +68,6 @@ section {
     line-height: 30px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-inline-start: 52px;
-}
-
-.features-calendar {
-    display: flex;
-    flex-direction: column;
-    
-    
-}
-
-.features-display {
-    
-   
-}
-
-.features-membership {
-    
-    
-}
-
-.features-contact {
-    
-    
 }
 
 .container-features, h3 {
@@ -107,20 +86,36 @@ section {
     color: #000000;
 }
 
+.calendar-text {
+    text-align: center;
+}
+
+.display-text {
+    text-align: center;
+}
+
+.membership-text {
+    text-align: center;
+}
+
+.contact-text {
+    text-align: center;
+}
+
 .container-features img {
     width: 86.15px;
     height: 80px;
 }
 
 .container-aboutus {
-    display: none;
-    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
 }
 
 .aboutus-title {
-    position: absolute;
-    width: 275px;
-    height: 107px;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
@@ -131,9 +126,6 @@ section {
 }
 
 .aboutus-text {
-    position: absolute;
-    width: 1013px;
-    height: 206px;
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
@@ -145,41 +137,31 @@ section {
 }
 
 .container-contact {
-    display: none;
-    height: 800px;
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
 }
 
 .contact-title {
-    position: absolute;
-    width: 475.88px;
-    height: 51.92px;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 47px;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
-    left: 300px;
 }
 
-.contact-title-reason {
-    position: absolute;
-    width: 145px;
-    height: 51px;
-    left: 1000px;
-    top: 1585px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
+.contact-placeholders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
 }
 
 .contact-placeholder-name {
-    position: absolute;
-    width: 451.91px;
-    height: 35px;
-    left: 250px;
-    top: 1700px;
+    width: 90%;
+    height: 47px;
     border-radius: 5px;
     font-family: 'Roboto';
     font-style: normal;
@@ -189,11 +171,8 @@ section {
 }
 
 .contact-placeholder-lastname {
-    position: absolute;
-    width: 451.91px;
-    height: 35px;
-    left: 250px;
-    top: 1780px;
+    width: 90%;
+    height: 47px;
     border-radius: 5px;
     font-family: 'Roboto';
     font-style: normal;
@@ -203,11 +182,8 @@ section {
 }
 
 .contact-placeholder-email {
-    position: absolute;
-    width: 451.91px;
-    height: 35px;
-    left: 250px;
-    top: 1860px;
+    width: 90%;
+    height: 47px;
     border-radius: 5px;
     font-family: 'Roboto';
     font-style: normal;
@@ -216,48 +192,9 @@ section {
     line-height: 23px;
 }
 
-.contact-radio-membership {
-    position: absolute;
-    top: 1700px;
-    left: 1000px;
-    width: 500px;
-    height: 28px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    color: #373867;
-}
-
-.contact-radio-question {
-    position: absolute;
-    top: 1785px;
-    left: 1000px;
-    width: 500px;
-    height: 28px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    color: #373867;
-}
-
-.contact-radio-claim {
-    position: absolute;
-    top: 1865px;
-    left: 1000px;
-    width: 500px;
-    height: 28px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    color: #373867;
-}
-
 .contact-comentary {
-    position: absolute;
-    width: 1300px;
-    height: 289px;
-    top: 1950px;
-    left: 250px;
+    width: 90%;
+    height: 73px;
     border-radius: 5px;
     border-width: 3px;
     font-family: 'Roboto';
@@ -274,11 +211,8 @@ section {
     flex-direction: column;
     align-items: center;
     padding: 10px 24px;
-    position: absolute;
     width: 76px;
     height: 34px;
-    left: 245px;
-    top: 2300px;
     background: #AACE9B;
     border-radius: 5px;
     font-family: 'Roboto';
@@ -290,8 +224,43 @@ section {
     color: #373867;
     border-color: white;
 }
+/*
+.contact-title-radio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-title-reason {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.contact-radio-membership {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #373867;
+}
+
+.contact-radio-question {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #373867;
+}
+
+.contact-radio-claim {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #373867;
+}
 
 .container-info {
+    display: none;
     height: 300px;
     font-weight: 600;
     font-size: 15px;
