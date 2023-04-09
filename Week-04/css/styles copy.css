@@ -139,7 +139,7 @@ section {
 .container-contact {
     display: flex;
     flex-direction: column;
-    height: 1100px;
+    height: 980px;
 }
 
 .contact-title {
@@ -224,7 +224,7 @@ section {
     color: #373867;
     border-color: white;
 }
-/*
+
 .contact-title-radio {
     display: flex;
     flex-direction: column;
@@ -243,6 +243,7 @@ section {
     font-weight: 500;
     font-size: 24px;
     color: #373867;
+    margin-bottom: 5%;
 }
 
 .contact-radio-question {
@@ -250,6 +251,7 @@ section {
     font-weight: 500;
     font-size: 24px;
     color: #373867;
+    margin-bottom: 5%;
 }
 
 .contact-radio-claim {
@@ -257,49 +259,21 @@ section {
     font-weight: 500;
     font-size: 24px;
     color: #373867;
+    margin-bottom: 5%;
 }
 
 .container-info {
-    display: none;
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 900px;
     font-weight: 600;
-    font-size: 15px;
-    line-height: 16px;
+    font-size: 20px;
+    line-height: 20px;
 }
 
-.activities {
-    position: absolute;
-    width: 277px;
-    height: 45px;
-    left: 250px;
-    top: 2450px;
-}
-
-.black {
-    position: absolute;
-    width: 500px;
-    height: 45px;
-    left: 500px;
-    top: 2450px;
-}
-
-.classicm {
-    position: absolute;
-    width: 400px;
-    height: 45px;
-    left: 900px;
-    top: 2450px;
-}
-
-.onlyclass {
-    position: absolute;
-    width: 400px;
-    height: 45px;
-    left: 1300px;
-    top: 2450px;
-}
-
-.container-img {
+.presentation-img {
     display: none;
     width: 725px;
     height: 369px;
