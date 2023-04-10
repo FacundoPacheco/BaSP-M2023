@@ -83,6 +83,7 @@ section {
     font-weight: 600;
     font-size: 32px;
     line-height: 38px;
+    text-align: center;
 }
 
 .container-features p {
@@ -140,8 +141,10 @@ section {
     line-height: 29px;
     text-align: center;
     color: #000000;
-    left: 550px;
-    top: 1280px;
+}
+
+.aboutus-text-tablet {
+    display:none;
 }
 
 .container-contact {
@@ -313,20 +316,122 @@ section {
     height: 543px;
 }
 
+.container-features {
+    display: flex;
+    justify-content: start;
+    justify-content: space-around;
+    height: 1200px;
+}
 
+.features-appointment {
+    display: flex;
+    flex-direction: row;
+}
 
+.features-calendar {
+    margin-left: 50%;
+    margin-right: 150px;
+}
 
+.title-appointment {
+    text-align: start;
+}
 
+.calendar-text {
+    text-align: start;
+}
 
+.features-display {
+    display: flex;
+    flex-direction: row;
+}
 
+.features-displayimg {
+    margin-left: 50%;
+    margin-right: 150px;
+}
 
+.title-display {
+    text-align: start;
+}
 
+.display-text {
+    text-align: start;
+}
 
+.features-membership {
+    display: flex;
+    flex-direction: row;
+}
 
+.features-membershipimg {
+    margin-left: 50%;
+    margin-right: 150px;
+}
 
+.membership-title {
+    text-align: start;
+}
 
+.membership-text {
+    text-align: start;
+}
 
+.features-contact {
+    display: flex;
+    flex-direction: row;
+}
 
+.features-contactimg {  
+    margin-left: 50%;
+    margin-right: 150px;
+}
+
+.suggestions-title {
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 32px;
+    line-height: 38px;
+    text-shadow: none;
+    text-align: start;
+}
+
+.contact-text { 
+    text-align: start;
+}
+
+.container-aboutus {
+    display: flex;
+    justify-content: start;
+    height: 500px;
+}
+
+.aboutus-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #49A37B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.aboutus-text { 
+    display: none;
+}
+
+.aboutus-text-tablet {
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.contact-title {
+    font-weight: 600;
+}
 
 }
 
