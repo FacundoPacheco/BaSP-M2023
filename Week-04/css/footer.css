@@ -6,4 +6,11 @@ footer {
     height: 220px;
 }
 
+@media screen and (min-width: 1024px) {
+
+footer {
+    height: 500px;
+}
+}
+
 
