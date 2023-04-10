@@ -15,8 +15,6 @@ section {
 .container-presentation {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     height: 459px;
     background-image: url(../assest/img/LOGO-RR\ 1.png);
     background-repeat: no-repeat;
@@ -59,7 +57,13 @@ section {
     color:  #373867;
 }
 
-.presentation-img { 
+.presentation-text-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation-img {
     display:none;
 }
 
