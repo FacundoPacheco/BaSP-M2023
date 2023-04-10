@@ -512,4 +512,58 @@ body {
     min-width: 512px;
 }
 
+.container-aboutus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aboutus-text-tablet {
+    margin-left: 90px;
+}
+
+
+.contact-placeholders {
+    display: flex;
+    justify-content: space-evenly;
+    width: 451px;
+    height: 800px;
+
+}
+
+.contact-title {
+    display: flex;
+}
+
+.contact-comentary {
+    display: flex;
+    align-self: flex-start;
+    justify-content: start;
+    margin-left: 20px;
+    Width: 1199px;
+    Height: 289px;
+}
+
+.contact-title-radio {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 2160px;
+    left: 900px;
+    height: 470px;
+}
+
+.contact-buttonsend {
+    margin-left: -340px;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+}
+
+
 }
