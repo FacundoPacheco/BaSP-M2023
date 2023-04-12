@@ -23,5 +23,9 @@ In point number three of the weekly problem, we are informed that we must make t
 ## Week-04
 - At the beginning of week 04, fixed what was wrong with week 03.
 
+- After fixing the week 03 bugs, we did a responsive job so that the week 03 page looks on mobile, tablet, and desktop.
+
+-in week 04 we used the flexbox method as css.
+
 # author Facundo Pacheco
 
