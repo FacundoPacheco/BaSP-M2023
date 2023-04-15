@@ -3,14 +3,15 @@ var b = 2;
 var c = a + b;
 console.log(c);
 
-var nombre = "Facundo";
-var apellido = "Pacheco";
-var nombreApellido = nombre + apellido;
-console.log(nombreApellido);
+var name = "Facundo";
+var lastName = "Pacheco";
+var nameLastName = name + lastName;
+console.log(nameLastName);
 
-var nombreDos = "Alejandro"
-var apellidoDos = "Platía"
-var nombreApellidoDos = nombreDos.length + apellidoDos.length;
-console.log(nombreApellidoDos);
+var nameTwo = "Alejandro"
+var lastNameTwo = "Platía"
+var nameLastNameTwo = nameTwo.length + lastNameTwo.length;
+console.log(nameLastNameTwo);
+
 
 
