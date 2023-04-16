@@ -24,7 +24,6 @@ var movie = "tiempos violentos";
 var movieMayuscOne = movie.substring(0,1).toUpperCase();
 var movieMayuscOneB = movieMayuscOne + movie.substring(1,movie.indexOf(" ")).toLowerCase()
 var movieMayuscTwo = movie.substring(movie.indexOf(" ") + 1, movie.indexOf(" ") + 2).toUpperCase();
-console.log(movieMayuscTwo)
 var movieMayuscTwoB = movieMayuscTwo + movie.substring(movie.indexOf(" ") + 2).toLowerCase()
 var moviedefinitive = movieMayuscOneB + " " + movieMayuscTwoB;
 console.log(moviedefinitive);
