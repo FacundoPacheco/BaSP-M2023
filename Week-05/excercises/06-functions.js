@@ -9,7 +9,7 @@ console.log(resultado);
 function suma(a, b) {
     if (typeof a !== "number" || typeof b !== "number") {
       alert("Uno de los parámetros no es un número");
-      return NaN;
+      return alert(NaN);
     }
     return a + b;
   }
@@ -27,3 +27,46 @@ function validateInteger(number) {
   console.log(validateInteger("hola"))
 
 //Copiar y renombrar la función suma del ejercicio 6b) y agregarle una llamada a la función del ejercicio 6c. y que valide que los números sean enteros. En caso que haya decimales mostrar un alert con el error y retornar el número convertido a entero (redondeado).
+function sumaRenamed(a, b) {
+  if(!isNaN(a) && !isNaN(b)){
+    if (validateInteger(a) && validateInteger(b)){
+      return a + b
+    }else {
+      var c = Math.round(a)
+      var d = Math.round(b)
+      console.log(c, d)
+      alert("Error")
+      return c, d
+    }
+  }
+    return alert("NaN");
+}
+var e = sumaRenamed (5.1, 2.4);
+console.log(e);
+
+//Convertir la validación del ejercicio 6d) en una función separada y llamarla dentro de una nueva función probando que todo siga funcionando igual que en el apartado anterior.
+function esEntero(num) {
+  if (Number.isInteger(num)) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function sumaRenamed(a, b) {
+  if (!isNaN(a) && !isNaN(b)) {
+    if (esEntero(a) && esEntero(b)) {
+      return a + b;
+    } else {
+      var c = Math.round(a);
+      var d = Math.round(b);
+      console.log(c, d);
+      alert("Error");
+      return c, d;
+    }
+  }
+  return alert("NaN");
+}
+
+var e = sumaRenamed(5.1, 2.4);
+console.log(e);
