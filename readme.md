@@ -27,5 +27,12 @@ In point number three of the weekly problem, we are informed that we must make t
 
 -in week 04 we used the flexbox method as css.
 
+
+## Week-05
+- In week 05 we had a problem to work on that consisted of two stages: the first was to correct what was done in week 04 according to what the tutor said, and the second was to work with javascript principles
+
+- In week 05 we had to do the following operations:
+- variables and operators, strings, arrays, if-else, for, functions.
+
 # author Facundo Pacheco
 
