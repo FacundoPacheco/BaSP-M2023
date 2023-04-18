@@ -34,5 +34,7 @@ In point number three of the weekly problem, we are informed that we must make t
 - In week 05 we had to do the following operations:
 - variables and operators, strings, arrays, if-else, for, functions.
 
+-In the last commit of week 05 I wanted to say: "BaSP-W05-2023 6-d"-e" finished
+
 # author Facundo Pacheco
 
