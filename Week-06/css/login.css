@@ -8,8 +8,21 @@ header {
     background-color: #49A37B;
 }
 
+main img {
+    width: 60px;
+    height: 50px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
 .footerTitle-subt {
     text-align: center;
+    color: #131543;
 }
 
 .footerTitle {
@@ -18,7 +31,6 @@ header {
     line-height: 50px;
     margin-bottom: -10px;
     border-bottom: 2px solid #000;
-    color: #131543;
 }
 
 .footerLogo {
@@ -26,3 +38,44 @@ header {
     height: 131px;
 }
 
+.containerLogin {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 461px;
+    height: 580px;
+    background: #FDFBFB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.email-img {
+    display: flex;
+}
+
+.pass-img {
+    display: flex;
+}
+
+.email-placeholder {
+    border: none;
+    border-bottom: solid 1px;
+}
+
+.password-placeholder {
+    border: none;
+    border-bottom: solid 1px;
+}
+
+.continue-button {
+    width: 200.22px;
+    height: 40.84px;
+    background: #49A37B;
+    border-radius: 10px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    border: none;
+    color: #FFFFFF;
+}
