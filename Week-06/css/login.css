@@ -18,14 +18,24 @@ main {
     align-items: center;
     justify-content: center;
     margin-top: 90px;
+    height: 800px;
 }
 
-.footerTitle-subt {
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #49A37B;
+    height: 130px;
+}
+
+.header-Title-subt {
     text-align: center;
     color: #131543;
 }
 
-.footerTitle {
+.header-Title {
     font-weight: 900;
     font-size: 40px;
     line-height: 50px;
@@ -33,9 +43,14 @@ main {
     border-bottom: 2px solid #000;
 }
 
-.footerLogo {
+.header-Logo {
     width: 209px;
     height: 131px;
+}
+
+.header-register {
+    margin-right: 20px;
+color: #FFFFFF;
 }
 
 .containerLogin {
@@ -62,20 +77,53 @@ main {
 
 .email-placeholder {
     border: none;
+    width: 250px;
     border-bottom: solid 1px;
 }
 
 .password-placeholder {
     border: none;
+    width: 250px;
     border-bottom: solid 1px;
 }
 
+.remember-me-forgot {
+    display: flex;
+    align-items: center;
+}
+
+.forgot-pass {
+    margin: 40px;
+}
+
+.get-help {
+    margin-left: 140px;
+    margin-top: -80px;
+}
+
 .continue-button {
-    width: 200.22px;
-    height: 40.84px;
+    width: 200px;
+    height: 40px;
     background: #49A37B;
     border-radius: 10px;
     transform: matrix(1, 0, 0, 1, 0, 0);
     border: none;
+    color: #FFFFFF;
+}
+
+.footer-button {
+    width: 97px;
+    height: 32px;
+    background: rgba(18, 18, 52, 0.75);
+    border-radius: 81px;
+    color: #FFFFFF;
+    margin: 20px;
+}
+
+.footer-img {
+    margin-right: 20px;
+}
+
+.rights {
     color: #FFFFFF;
 }
