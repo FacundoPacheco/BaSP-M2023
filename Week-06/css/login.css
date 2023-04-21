@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto';
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #49A37B;
+}
+
+.footerTitle-subt {
+    text-align: center;
+}
+
+.footerTitle {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: -10px;
+    border-bottom: 2px solid #000;
+    color: #131543;
+}
+
+.footerLogo {
+    width: 209px;
+    height: 131px;
+}
+
