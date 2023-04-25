@@ -55,3 +55,22 @@ body {
     border: 1px solid #000000;
     border-radius: 5px;
 }
+
+@media only screen and (min-width: 601px) {
+    .placeholder select {
+        width: 200px;
+        height: 30px;
+    }
+
+    .container-register {
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .placeholder select {
+        width: 260px;
+        height: 36px;
+    }
+
+}
