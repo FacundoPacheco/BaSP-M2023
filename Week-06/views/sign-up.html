@@ -19,9 +19,9 @@
                 "Take-off your potential"
             </p>
         </div>
-        <p class="header-register">
+        <a href="../views/login.html" class="header-register">
             Sign in
-        </p>
+        </a>
     </header>
     <main>
         <form>
@@ -31,68 +31,86 @@
                         Register
                     </h2>
                 </div>
-                <div class="name-form" >
+                <div class="input-form" >
                         <p>
                             Name
                         </p>
-                        <input class="placeholder" type="text" placeholder="Name">
-                    </div>
-                    <div class="lastname-form">
+                        <input class="placeholder" id="name" type="text" placeholder="Name">
+                    <div class="error" ></div>
+                </div>
+
+                    <div class="input-form">
                         <p>
                             Last name
                         </p>
-                        <input class="placeholder" type="text" placeholder="Last name">
+                        <input class="placeholder" id="lastName" type="text" placeholder="Last name">
+                        <div class="error" ></div>
                     </div>
-                    <div class="dni-form" >
+                    <div class="input-form" >
                         <p>
                             DNI
                         </p>
-                        <input class="placeholder" type="number" placeholder="DNI">
+                        <input class="placeholder" id="dni" type="number" placeholder="DNI">
+                        <div class="error" ></div>
                     </div>
-                    <div class="birthdate-form" >
+                    <div class="input-form" >
                         <p>
                             Birthdate
                         </p>
-                        <input class="placeholder" type="number" placeholder="Birthdate">
+                        <input class="placeholder" id="birthday" type="number" placeholder="Birthdate">
+                        <div class="error" ></div>
                     </div>
-                    <div class="phone-form" >
+                    <div class="input-form" >
                         <p>
                             Phone number
                         </p>
-                        <input class="placeholder" type="number" placeholder="Phone number">
+                        <input class="placeholder" id="telephone" type="number" placeholder="Phone number">
+                        <div class="error" ></div>
                     </div>
-                    <div class="adress-form" >
+                    <div class="input-form" >
                         <p>
                             Adress
                         </p>
-                        <input class="placeholder" type="text" placeholder="Adress">
+                        <input class="placeholder" id="address" type="text" placeholder="Adress">
+                        <div class="error" ></div>
                     </div>
-                    <div class="location-form" >
+                    <div class="input-form" >
                         <p>
                             Location
                         </p>
-                        <input class="placeholder" type="text" placeholder="Location">
+                        <input class="placeholder" id="location" type="text" placeholder="Location">
+                        <div class="error" ></div>
                     </div>
-                    <div class="postal-form" >
+                    <div class="input-form" >
                         <p>
                             Postal code
                         </p>
-                        <input class="placeholder" type="number" placeholder="Postal code">
+                        <input class="placeholder" id="areaCode" type="number" placeholder="Postal code">
+                        <div class="error" ></div>
                     </div>
-                    <div class="pass-form" >
+                    <div class="input-form" >
+                        <p>
+                            Email
+                        </p>
+                        <input class="placeholder" id="email" type="text" placeholder="Email">
+                        <div class="error" ></div>
+                    </div>
+                    <div class="input-form" >
                         <p>
                             Password
                         </p>
-                        <input class="placeholder" type="password" placeholder="Password">
+                        <input class="placeholder" id="password" type="password" placeholder="Password">
+                        <div class="error" ></div>
                     </div>
-                    <div class="repeat-form" >
+                    <div class="input-form" >
                         <p>
                             Repeat password
                         </p>
-                        <input class="placeholder" type="password" placeholder="Repeat password">
+                        <input class="placeholder" id="passwordRepeat" type="password" placeholder="Repeat password">
+                        <div class="error" ></div>
                     </div>
                 <div>
-                    <button class="register-button" >
+                    <button class="register-button" id="form-button-register" >
                         Continue
                     </button>
                 </div>
@@ -107,4 +125,5 @@
         <img class="footer-img" src="../assest/img/imgfooter.png" alt="contact"/>
     </footer>
 </body>
+<script src="../js/sign-up.js"></script>
 </html>

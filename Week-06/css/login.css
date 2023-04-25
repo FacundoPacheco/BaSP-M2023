@@ -82,17 +82,37 @@ footer {
 }
 
 .email-img.error input {
-    border: 3px solid red;
+    border: 5px solid red;
 }
 
-.email-img.success input {
-    border: 3px solid green;
+.success input{
+    border: 5px solid green;
+}
+
+.email-img .error {
+    font-size: 12px;
+    height: 13px;
+    color: red;
 }
 
 .password-placeholder {
     border: none;
     width: 250px;
     border-bottom: solid 1px;
+}
+
+.pass-img.error input{
+    border: 5px solid red;
+  }
+
+.pass-img.success input {
+    border: 5px solid green;
+  }
+
+.pass-img .error {
+    font-size: 12px;
+    height: 13px;
+    color: red;
 }
 
 .remember-me-forgot {
