@@ -81,6 +81,14 @@ footer {
     border-bottom: solid 1px;
 }
 
+.email-img.error input {
+    border: 3px solid red;
+}
+
+.email-img.success input {
+    border: 3px solid green;
+}
+
 .password-placeholder {
     border: none;
     width: 250px;
