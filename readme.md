@@ -36,5 +36,12 @@ In point number three of the weekly problem, we are informed that we must make t
 
 -In the last commit of week 05 I wanted to say: "BaSP-W05-2023 6-d"-e" finished
 
+## Week-06
+- In week 06 we had to create a login page and a registration page.
+
+- The fields where the data is applied had to be validated using javascript
+
+
+
 # author Facundo Pacheco
 
