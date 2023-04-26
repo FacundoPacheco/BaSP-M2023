@@ -329,6 +329,21 @@ function validateInputPasswordRepeat() {
 }
 
 function validateInputBirthday() {
+    const birthdayValue = birthday.value.trim();
+    var dateEl = birthdayValue.split('-')
+    var formattedDate = dateEl[2] + '/' + dateEl[1] + '/' + dateEl[0]
+    if (birthdayValue === '') {
+        const textError = "Birthday is required."
+        setError(birthday, textError);
+        return alertText = textError;
+    } else {
+        setSuccess(birthday);
+        alertText = formattedDate;
+        return alertText
+    }
+}
+
+function validateInputBirthday() {
     const passwordValue = password.value.trim();
     if (passwordValue === '') {
         const textError = "Password is required."
@@ -380,6 +395,8 @@ function sumbitForm() {
     innerAlert += alertText + "\n";
     validateInputPasswordRepeat();
     innerAlert += alertText + "\n";
+    validateInputBirthday();
+    innerAlert += alertText + "\n";
     alert(innerAlert);
 }
 
@@ -403,4 +420,6 @@ password.addEventListener("blur", validateInputPassword);
 password.addEventListener("focus", function e() {setSuccess(password)});
 passwordRepeat.addEventListener("blur", validateInputPasswordRepeat);
 passwordRepeat.addEventListener("focus", function e() {setSuccess(passwordRepeat)});
+birthday.addEventListener("blur", validateInputBirthday);
+birthday.addEventListener("focus", function e() {setSuccess(birthday)});
 register.addEventListener("click", sumbitForm);
