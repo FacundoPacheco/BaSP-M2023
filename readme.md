@@ -41,7 +41,9 @@ In point number three of the weekly problem, we are informed that we must make t
 
 - The fields where the data is applied had to be validated using javascript
 
+ https://facundopacheco.github.io/BaSP-M2023/Week-06/views/sign-up.html
 
+ https://facundopacheco.github.io/BaSP-M2023/Week-06/views/login.html
 
 # author Facundo Pacheco
 
