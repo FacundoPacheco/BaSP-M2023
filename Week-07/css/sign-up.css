@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto';
+}
+
+.container-register {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 561px;
+    height: 740px;
+    background: #FDFBFB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 70px;
+    padding-bottom: 30px;
+}
+
+.register {
+    margin-left: 230px;
+    width: 100%;
+}
+
+.input-form {
+    width: 50%;
+}
+
+.input-form.error input {
+    border-color: red;
+}
+
+.input-form.success input {
+    border-color: green;
+}
+
+.input-form .error {
+    font-size: 12px;
+    height: 13px;
+    color: red;
+}
+
+.register-button {
+    width: 300px;
+    height: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 5px;
+    background: #49A37B;
+}
+
+.placeholder {
+    width: 210px;
+    height: 30px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 601px) {
+    .placeholder select {
+        width: 200px;
+        height: 30px;
+    }
+
+    .container-register {
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .placeholder select {
+        width: 260px;
+        height: 36px;
+    }
+
+}

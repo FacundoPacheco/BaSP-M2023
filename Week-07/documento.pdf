@@ -1,0 +1,52 @@
+Login:
+
+-Email: se verifica que el campo no esté vacío y que el valor ingresado sea una dirección de correo electrónico válida utilizando una expresión regular. Si el campo está vacío o el valor no es una dirección de correo electrónico válida, se muestra un mensaje de error.
+
+
+
+-Contraseña: La contraseña no debe estar vacía y debe tener al menos 8 caracteres.
+La contraseña no debe contener espacios ni caracteres especiales.
+La contraseña debe contener al menos una letra y al menos un número.
+Si se viola alguno de estos requisitos, se muestra un mensaje de error en el campo de contraseña.
+
+Sign Up:
+
+-Nombre: Se verifica que el campo no esté vacío, que tenga al menos 3 caracteres, que no contenga caracteres especiales y que no tenga números.
+
+
+
+-Apellido:  Se verifica que el campo no esté vacío, que tenga al menos 3 caracteres, que no contenga caracteres especiales y que no tenga números.
+
+
+
+-DNI:  Se verifica que el campo no esté vacío, que tenga al menos 8 caracteres, que no contenga caracteres especiales y que no tenga letras.
+
+
+
+-Fecha de Nacimiento:
+
+
+
+-Teléfono: se verifican que el campo no esté vacío y que los caracteres sean números.
+
+
+
+-Dirección: se verifica que el campo no esté vacío y que no se puedan ingresar caracteres especiales.
+
+
+
+-Localidad: se verifica que el campo no esté vacío y que no tenga carácteres especiales.
+
+
+
+-Código Postal: se verifica que el campo no esté vacío.
+
+- Email: Se verifica que el campo no esté vacío y que tenga un formato de correo electrónico válido.
+
+- Contraseña: Se verifica que el campo no esté vacío, que tenga al menos 8 caracteres, que tenga al menos una letra y al menos un número y que no contenga caracteres especiales.
+
+-Repetir Contraseña:  Se verifica que el campo no esté vacío y que sea igual al valor ingresado en el campo "password".
+
+
+Todos los campos muestran alertas si están vacíos.
+
